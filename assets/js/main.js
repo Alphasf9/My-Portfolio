@@ -35,13 +35,14 @@ function headerShadow() {
 var typingEffect = new Typed(".typedText", {
   strings: ["Developer", "MERN Stack Specialist", "Web Enthusiast", "Problem Solver"],
   loop: true,
-  typeSpeed: 100,
-  backSpeed: 50,
-  backDelay: 2000,
+  typeSpeed: 80,
+  backSpeed: 40,
+  backDelay: 2500,
   startDelay: 1000,
   showCursor: true,
   cursorChar: '|',
-  cursorBlinking: true
+  cursorBlinking: true,
+  smartBackspace: true
 });
 
 

@@ -231,34 +231,24 @@ nav {
 }
 
 .featured-name {
-  margin-bottom: 30px;
+  margin: 1.5rem 0;
 }
 
-.featured-name span {
-  color: var(--first-color);
-  font-size: 1.2rem;
+.featured-name .greeting {
+  font-size: 2rem;
   font-weight: 500;
-  display: block;
-  margin-bottom: 10px;
-  opacity: 0.9;
-}
-
-.featured-name h1 {
-  font-size: 3.2rem;
-  font-weight: 700;
-  line-height: 1.2;
-  margin-bottom: 20px;
   color: var(--text-color-second);
+  margin-bottom: 0.5rem;
 }
 
-.featured-name .typing-text {
-  color: var(--first-color);
-}
-
-.featured-name p {
+.featured-name .profession {
   display: flex;
   align-items: center;
-  gap: 5px;
+  gap: 10px;
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: var(--first-color);
+  margin-left: 2rem;
 }
 
 .typedText, .typed-cursor {
@@ -271,6 +261,7 @@ nav {
   margin-left: 0;
   font-size: inherit;
   opacity: 1;
+  color: var(--first-color);
   animation: blink 0.7s infinite;
 }
 
